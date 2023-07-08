@@ -11,10 +11,11 @@ function App() {
         <Router>
           <Header />
             <Routes>
+                <Route path="/" element={<Home />}></Route>
                 <Route index element={<Home />}></Route>
                 <Route path="movie/:id" element={<Movie />}></Route>
                 <Route path="movies/:type" element={<MovieList />}></Route>
-                <Route path="/*" element={<Home />}></Route>
+                <Route path="/*" element={<h1>error page not found</h1>}></Route>
             </Routes>
         </Router>
     </div>
