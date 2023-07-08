@@ -15,8 +15,7 @@ function App() {
                 <Route index element={<Home />}></Route>
                 <Route path="movie/:id" element={<Movie />}></Route>
                 <Route path="movies/:type" element={<MovieList />}></Route>
-                <Route path="/*" element={<Home />}></Route>
-                <Route path="/*" element={<Home/>}></Route>
+                <Route path="/*" element={<h1>Error page not found</h1>}></Route>
             </Routes>
         </Router>
     </div>
