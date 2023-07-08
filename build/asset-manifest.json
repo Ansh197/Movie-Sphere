@@ -1,6 +1,7 @@
 {
   "files": {
     "main.css": "/imdb-clone/static/css/main.e45fb457.css",
+<<<<<<< Updated upstream
     "main.js": "/imdb-clone/static/js/main.b83e6f03.js",
     "index.html": "/imdb-clone/index.html",
     "main.e45fb457.css.map": "/imdb-clone/static/css/main.e45fb457.css.map",
@@ -9,5 +10,15 @@
   "entrypoints": [
     "static/css/main.e45fb457.css",
     "static/js/main.b83e6f03.js"
+=======
+    "main.js": "/imdb-clone/static/js/main.514c6782.js",
+    "index.html": "/imdb-clone/index.html",
+    "main.e45fb457.css.map": "/imdb-clone/static/css/main.e45fb457.css.map",
+    "main.514c6782.js.map": "/imdb-clone/static/js/main.514c6782.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45fb457.css",
+    "static/js/main.514c6782.js"
+>>>>>>> Stashed changes
   ]
 }
